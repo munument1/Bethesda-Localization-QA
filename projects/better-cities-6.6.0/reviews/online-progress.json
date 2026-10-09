@@ -1,0 +1,20 @@
+{
+  "base_checkpoint": "wave106_book_desc_semantic_106",
+  "last_online_batch": "wave107_online_book_desc_001",
+  "base_snapshot_preserved": true,
+  "online_decision_files": [
+    "reviews/wave107_book_desc_001.json"
+  ],
+  "reviewed_ids": [
+    "g00764",
+    "g00808"
+  ],
+  "counts": {
+    "target": 16182,
+    "completed": 16143,
+    "unprocessed": 39,
+    "approved": 11981,
+    "corrected": 3193,
+    "needs_context": 969
+  }
+}
