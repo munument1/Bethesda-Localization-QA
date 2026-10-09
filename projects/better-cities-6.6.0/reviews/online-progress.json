@@ -1,6 +1,6 @@
 {
   "base_checkpoint": "wave106_book_desc_semantic_106",
-  "last_online_batch": "wave121_online_book_desc_015",
+  "last_online_batch": "wave122_online_book_desc_016",
   "base_snapshot_preserved": true,
   "online_decision_files": [
     "reviews/wave107_book_desc_001.json",
@@ -17,7 +17,8 @@
     "reviews/wave118_book_desc_012.json",
     "reviews/wave119_book_desc_013.json",
     "reviews/wave120_book_desc_014.json",
-    "reviews/wave121_book_desc_015.json"
+    "reviews/wave121_book_desc_015.json",
+    "reviews/wave122_book_desc_016.json"
   ],
   "reviewed_ids": [
     "g00764",
@@ -49,14 +50,16 @@
     "g00810",
     "g00800",
     "g00802",
-    "g01268"
+    "g01268",
+    "g01322",
+    "g00776"
   ],
   "counts": {
     "target": 16182,
-    "completed": 16171,
-    "unprocessed": 11,
+    "completed": 16173,
+    "unprocessed": 9,
     "approved": 11981,
-    "corrected": 3221,
+    "corrected": 3223,
     "needs_context": 969
   }
 }
