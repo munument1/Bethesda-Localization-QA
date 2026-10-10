@@ -1,0 +1,1026 @@
+{
+  "batch": "wave160_context_033",
+  "date": "2026-10-10",
+  "checkpoint": "wave159_context_032",
+  "scope": "53 explicitly held mod-owned DIAL FULL matching native EditorID; technical KEEP after local metadata cross-check",
+  "selected": 53,
+  "approved": 53,
+  "corrected": 0,
+  "needs_context": 0,
+  "review_decisions": [
+    {
+      "id": "g07278",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANChorrolPregGirlLucienTopicAccusePlayer",
+      "previous_korean": "BANChorrolPregGirlLucienTopicAccusePlayer",
+      "reviewed_korean": "BANChorrolPregGirlLucienTopicAccusePlayer",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANChorrolPregGirlLucienTopicAccusePlayer' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANChorrolPregGirlLucienTopicAccusePlayer' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g07469",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANChorrolPregGirlElainetoLucien01",
+      "previous_korean": "BANChorrolPregGirlElainetoLucien01",
+      "reviewed_korean": "BANChorrolPregGirlElainetoLucien01",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANChorrolPregGirlElainetoLucien01' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANChorrolPregGirlElainetoLucien01' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g07471",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANChorrolPregGirlLucientoElaine01",
+      "previous_korean": "BANChorrolPregGirlLucientoElaine01",
+      "reviewed_korean": "BANChorrolPregGirlLucientoElaine01",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANChorrolPregGirlLucientoElaine01' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANChorrolPregGirlLucientoElaine01' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g07569",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANICTunnelRatCatchJobPay",
+      "previous_korean": "BANICTunnelRatCatchJobPay",
+      "reviewed_korean": "BANICTunnelRatCatchJobPay",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANICTunnelRatCatchJobPay' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANICTunnelRatCatchJobPay' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g07936",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BravilArdanSpeech",
+      "previous_korean": "BravilArdanSpeech",
+      "reviewed_korean": "BravilArdanSpeech",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BravilArdanSpeech' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BravilArdanSpeech' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g07968",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BravilMelvsTorOut",
+      "previous_korean": "BravilMelvsTorOut",
+      "reviewed_korean": "BravilMelvsTorOut",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BravilMelvsTorOut' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BravilMelvsTorOut' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08048",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANSkingradNPCRumourResponse",
+      "previous_korean": "BANSkingradNPCRumourResponse",
+      "reviewed_korean": "BANSkingradNPCRumourResponse",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANSkingradNPCRumourResponse' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANSkingradNPCRumourResponse' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08053",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANGHCTopicGHtoLavasir5",
+      "previous_korean": "BANGHCTopicGHtoLavasir5",
+      "reviewed_korean": "BANGHCTopicGHtoLavasir5",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANGHCTopicGHtoLavasir5' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANGHCTopicGHtoLavasir5' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08225",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveControlRoomGhost01",
+      "previous_korean": "BANLavaCaveControlRoomGhost01",
+      "reviewed_korean": "BANLavaCaveControlRoomGhost01",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveControlRoomGhost01' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveControlRoomGhost01' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08227",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveControlRoomGhost02",
+      "previous_korean": "BANLavaCaveControlRoomGhost02",
+      "reviewed_korean": "BANLavaCaveControlRoomGhost02",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveControlRoomGhost02' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveControlRoomGhost02' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08229",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveControlRoomGhost03",
+      "previous_korean": "BANLavaCaveControlRoomGhost03",
+      "reviewed_korean": "BANLavaCaveControlRoomGhost03",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveControlRoomGhost03' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveControlRoomGhost03' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08231",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveControlRoomGhost04",
+      "previous_korean": "BANLavaCaveControlRoomGhost04",
+      "reviewed_korean": "BANLavaCaveControlRoomGhost04",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveControlRoomGhost04' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveControlRoomGhost04' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08233",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveControlRoomGhost05",
+      "previous_korean": "BANLavaCaveControlRoomGhost05",
+      "reviewed_korean": "BANLavaCaveControlRoomGhost05",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveControlRoomGhost05' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveControlRoomGhost05' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08235",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveControlRoomGhost06",
+      "previous_korean": "BANLavaCaveControlRoomGhost06",
+      "reviewed_korean": "BANLavaCaveControlRoomGhost06",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveControlRoomGhost06' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveControlRoomGhost06' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08237",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveControlRoomGhost07",
+      "previous_korean": "BANLavaCaveControlRoomGhost07",
+      "reviewed_korean": "BANLavaCaveControlRoomGhost07",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveControlRoomGhost07' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveControlRoomGhost07' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08239",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveControlRoomGhost08",
+      "previous_korean": "BANLavaCaveControlRoomGhost08",
+      "reviewed_korean": "BANLavaCaveControlRoomGhost08",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveControlRoomGhost08' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveControlRoomGhost08' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08241",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveDeviceRoomGhost01",
+      "previous_korean": "BANLavaCaveDeviceRoomGhost01",
+      "reviewed_korean": "BANLavaCaveDeviceRoomGhost01",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveDeviceRoomGhost01' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveDeviceRoomGhost01' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08243",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveDeviceRoomGhost02",
+      "previous_korean": "BANLavaCaveDeviceRoomGhost02",
+      "reviewed_korean": "BANLavaCaveDeviceRoomGhost02",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveDeviceRoomGhost02' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveDeviceRoomGhost02' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08245",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveDeviceRoomGhost03",
+      "previous_korean": "BANLavaCaveDeviceRoomGhost03",
+      "reviewed_korean": "BANLavaCaveDeviceRoomGhost03",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveDeviceRoomGhost03' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveDeviceRoomGhost03' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08247",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLavaCaveDeviceRoomGhostFin",
+      "previous_korean": "BANLavaCaveDeviceRoomGhostFin",
+      "reviewed_korean": "BANLavaCaveDeviceRoomGhostFin",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLavaCaveDeviceRoomGhostFin' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLavaCaveDeviceRoomGhostFin' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08381",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFNocturnal01",
+      "previous_korean": "BANLeyGFNocturnal01",
+      "reviewed_korean": "BANLeyGFNocturnal01",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFNocturnal01' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFNocturnal01' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08383",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFNocturnal02",
+      "previous_korean": "BANLeyGFNocturnal02",
+      "reviewed_korean": "BANLeyGFNocturnal02",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFNocturnal02' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFNocturnal02' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08385",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFNocturnal03",
+      "previous_korean": "BANLeyGFNocturnal03",
+      "reviewed_korean": "BANLeyGFNocturnal03",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFNocturnal03' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFNocturnal03' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08387",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFNocturnal04",
+      "previous_korean": "BANLeyGFNocturnal04",
+      "reviewed_korean": "BANLeyGFNocturnal04",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFNocturnal04' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFNocturnal04' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08389",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFLibrary01",
+      "previous_korean": "BANLeyGFLibrary01",
+      "reviewed_korean": "BANLeyGFLibrary01",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFLibrary01' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFLibrary01' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08391",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFLibrary02",
+      "previous_korean": "BANLeyGFLibrary02",
+      "reviewed_korean": "BANLeyGFLibrary02",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFLibrary02' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFLibrary02' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08393",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFLibrary03",
+      "previous_korean": "BANLeyGFLibrary03",
+      "reviewed_korean": "BANLeyGFLibrary03",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFLibrary03' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFLibrary03' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08395",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFLibrary04",
+      "previous_korean": "BANLeyGFLibrary04",
+      "reviewed_korean": "BANLeyGFLibrary04",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFLibrary04' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFLibrary04' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08417",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFNocturnalIntro01",
+      "previous_korean": "BANLeyGFNocturnalIntro01",
+      "reviewed_korean": "BANLeyGFNocturnalIntro01",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFNocturnalIntro01' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFNocturnalIntro01' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08419",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFNocturnalIntro02",
+      "previous_korean": "BANLeyGFNocturnalIntro02",
+      "reviewed_korean": "BANLeyGFNocturnalIntro02",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFNocturnalIntro02' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFNocturnalIntro02' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08421",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFLibraryIntro01",
+      "previous_korean": "BANLeyGFLibraryIntro01",
+      "reviewed_korean": "BANLeyGFLibraryIntro01",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFLibraryIntro01' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFLibraryIntro01' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08426",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFCemetery02",
+      "previous_korean": "BANLeyGFCemetery02",
+      "reviewed_korean": "BANLeyGFCemetery02",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFCemetery02' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFCemetery02' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08428",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFCemetery03",
+      "previous_korean": "BANLeyGFCemetery03",
+      "reviewed_korean": "BANLeyGFCemetery03",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFCemetery03' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFCemetery03' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08430",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFCemetery04",
+      "previous_korean": "BANLeyGFCemetery04",
+      "reviewed_korean": "BANLeyGFCemetery04",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFCemetery04' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFCemetery04' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08432",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFInvelIntro01",
+      "previous_korean": "BANLeyGFInvelIntro01",
+      "reviewed_korean": "BANLeyGFInvelIntro01",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFInvelIntro01' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFInvelIntro01' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08457",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFChapel01",
+      "previous_korean": "BANLeyGFChapel01",
+      "reviewed_korean": "BANLeyGFChapel01",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFChapel01' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFChapel01' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08459",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFChapel02",
+      "previous_korean": "BANLeyGFChapel02",
+      "reviewed_korean": "BANLeyGFChapel02",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFChapel02' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFChapel02' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08461",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFChapel03",
+      "previous_korean": "BANLeyGFChapel03",
+      "reviewed_korean": "BANLeyGFChapel03",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFChapel03' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFChapel03' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08463",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFChapel04",
+      "previous_korean": "BANLeyGFChapel04",
+      "reviewed_korean": "BANLeyGFChapel04",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANLeyGFChapel04' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANLeyGFChapel04' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08643",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANSkingradGuardTopicTPTArrestHelp",
+      "previous_korean": "BANSkingradGuardTopicTPTArrestHelp",
+      "reviewed_korean": "BANSkingradGuardTopicTPTArrestHelp",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANSkingradGuardTopicTPTArrestHelp' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANSkingradGuardTopicTPTArrestHelp' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08645",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANSkingradBattlemageTopicTPTArrest03",
+      "previous_korean": "BANSkingradBattlemageTopicTPTArrest03",
+      "reviewed_korean": "BANSkingradBattlemageTopicTPTArrest03",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANSkingradBattlemageTopicTPTArrest03' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANSkingradBattlemageTopicTPTArrest03' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g10310",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANICArbAlfhedTopicRG01Sickness05",
+      "previous_korean": "BANICArbAlfhedTopicRG01Sickness05",
+      "reviewed_korean": "BANICArbAlfhedTopicRG01Sickness05",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANICArbAlfhedTopicRG01Sickness05' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANICArbAlfhedTopicRG01Sickness05' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12469",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "BANGHCTopicGHtoLavasir1",
+      "previous_korean": "BANGHCTopicGHtoLavasir1",
+      "reviewed_korean": "BANGHCTopicGHtoLavasir1",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANGHCTopicGHtoLavasir1' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANGHCTopicGHtoLavasir1' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12471",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "BANGHCTopicLavasirtoGH1",
+      "previous_korean": "BANGHCTopicLavasirtoGH1",
+      "reviewed_korean": "BANGHCTopicLavasirtoGH1",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANGHCTopicLavasirtoGH1' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANGHCTopicLavasirtoGH1' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12473",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "BANGHCTopicGHtoLavasir2",
+      "previous_korean": "BANGHCTopicGHtoLavasir2",
+      "reviewed_korean": "BANGHCTopicGHtoLavasir2",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANGHCTopicGHtoLavasir2' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANGHCTopicGHtoLavasir2' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12475",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "BANGHCTopicLavasirtoGH2",
+      "previous_korean": "BANGHCTopicLavasirtoGH2",
+      "reviewed_korean": "BANGHCTopicLavasirtoGH2",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANGHCTopicLavasirtoGH2' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANGHCTopicLavasirtoGH2' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12477",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "BANGHCTopicLavasirtoGH3",
+      "previous_korean": "BANGHCTopicLavasirtoGH3",
+      "reviewed_korean": "BANGHCTopicLavasirtoGH3",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANGHCTopicLavasirtoGH3' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANGHCTopicLavasirtoGH3' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12479",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "BANGHCTopicLavasirtoGH4",
+      "previous_korean": "BANGHCTopicLavasirtoGH4",
+      "reviewed_korean": "BANGHCTopicLavasirtoGH4",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANGHCTopicLavasirtoGH4' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANGHCTopicLavasirtoGH4' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12481",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "BANGHCTopicGHtoLavasir3",
+      "previous_korean": "BANGHCTopicGHtoLavasir3",
+      "reviewed_korean": "BANGHCTopicGHtoLavasir3",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANGHCTopicGHtoLavasir3' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANGHCTopicGHtoLavasir3' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12483",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "BANGHCTopicGHtoLavasir4",
+      "previous_korean": "BANGHCTopicGHtoLavasir4",
+      "reviewed_korean": "BANGHCTopicGHtoLavasir4",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BANGHCTopicGHtoLavasir4' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BANGHCTopicGHtoLavasir4' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12622",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "BravilBloodLastConv",
+      "previous_korean": "BravilBloodLastConv",
+      "reviewed_korean": "BravilBloodLastConv",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BravilBloodLastConv' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BravilBloodLastConv' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12629",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "BravilNanyaDeathScream",
+      "previous_korean": "BravilNanyaDeathScream",
+      "reviewed_korean": "BravilNanyaDeathScream",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BravilNanyaDeathScream' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BravilNanyaDeathScream' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12645",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "BravilBloodSpeech",
+      "previous_korean": "BravilBloodSpeech",
+      "reviewed_korean": "BravilBloodSpeech",
+      "status": "approved",
+      "reason": "Better Cities Resources.esm 추출 레코드에서 이 FULL='BravilBloodSpeech' 문자열이 해당 DIAL EditorID와 동일함을 대조했다. 로컬 held_internal_dialog_ids.jsonl은 이를 자동 패치에서 제외하는 내부 대화 식별자로 분류한다. 표시 이름을 임의 자연어로 바꾸면 원본 내부 토픽명과 어긋나므로 원문 'BravilBloodSpeech' 유지(KEEP)를 판정한다. 실제 인게임 출력 여부 검증은 별도 과제로 남긴다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_full_equals_editor_id": true,
+        "local_hold_reason": "DIAL FULL resembles internal EditorID; exclude from automated patching",
+        "original_source": "plugin_work_6.6.0a/extracted.jsonl",
+        "prior_hold_catalog": "plugin_work_6.6.0a/held_internal_dialog_ids.jsonl",
+        "runtime_visibility_verified": false
+      }
+    }
+  ],
+  "structural_validation": {
+    "record_ids_unique": true,
+    "html_tokens_preserved": true,
+    "crlf_count_preserved": true,
+    "placeholders_preserved": true
+  },
+  "runtime_validation_note": "게임 내 노출 여부는 추후 실증 확인 필요. 현재는 원본 내부 식별자 문자열을 번역하지 않는 판정임"
+}
