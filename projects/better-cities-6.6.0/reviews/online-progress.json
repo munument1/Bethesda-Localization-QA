@@ -72,9 +72,9 @@
     "target": 16182,
     "completed": 16182,
     "unprocessed": 0,
-    "approved": 12126,
-    "corrected": 3555,
-    "needs_context": 501
+    "approved": 12147,
+    "corrected": 3572,
+    "needs_context": 463
   },
   "context_decision_files": [
     "reviews/wave128_context_001.json",
@@ -91,7 +91,8 @@
     "reviews/wave139_context_012.json",
     "reviews/wave140_context_013.json",
     "reviews/wave141_context_014.json",
-    "reviews/wave142_context_015.json"
+    "reviews/wave142_context_015.json",
+    "reviews/wave143_context_016.json"
   ],
   "context_reviewed_ids": [
     "g00003",
@@ -561,9 +562,47 @@
     "g04262",
     "g04263",
     "g04264",
-    "g05124"
+    "g05124",
+    "g07141",
+    "g07254",
+    "g07429",
+    "g07635",
+    "g08207",
+    "g08567",
+    "g08700",
+    "g08823",
+    "g09289",
+    "g09585",
+    "g09747",
+    "g10006",
+    "g10483",
+    "g10508",
+    "g10809",
+    "g11353",
+    "g11356",
+    "g06951",
+    "g07029",
+    "g07513",
+    "g07554",
+    "g07556",
+    "g07559",
+    "g07883",
+    "g08072",
+    "g08490",
+    "g08268",
+    "g08808",
+    "g09100",
+    "g09082",
+    "g08938",
+    "g09880",
+    "g09409",
+    "g10119",
+    "g10141",
+    "g10244",
+    "g10935",
+    "g10371"
   ],
-  "last_context_batch": "wave142_context_015",
+  "last_context_batch": "wave143_context_016",
   "context_review_started": "2026-10-10",
-  "context_review_completed": 468
+  "context_review_completed": 506
 }
