@@ -1,0 +1,282 @@
+{
+  "batch": "wave161_context_034",
+  "date": "2026-10-10",
+  "checkpoint": "wave160_context_033",
+  "scope": "12 verified module EditorID/FULL technical KEEP records, 2 literary metaphors and 2 ambiguous lore titles",
+  "selected": 16,
+  "approved": 12,
+  "corrected": 4,
+  "needs_context": 0,
+  "review_decisions": [
+    {
+      "id": "g07349",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BravilNanyaTalk",
+      "previous_korean": "BravilNanyaTalk",
+      "reviewed_korean": "BravilNanyaTalk",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 0100EA26에서 FULL='BravilNanyaTalk'와 EDID='BravilNanyaTalk'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "0100EA26",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g07395",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "OronSpeech",
+      "previous_korean": "OronSpeech",
+      "reviewed_korean": "OronSpeech",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 01011BC4에서 FULL='OronSpeech'와 EDID='OronSpeech'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "01011BC4",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08434",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFInvel01",
+      "previous_korean": "BANLeyGFInvel01",
+      "reviewed_korean": "BANLeyGFInvel01",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 0106D19D에서 FULL='BANLeyGFInvel01'와 EDID='BANLeyGFInvel01'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "0106D19D",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08436",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFInvel02",
+      "previous_korean": "BANLeyGFInvel02",
+      "reviewed_korean": "BANLeyGFInvel02",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 0106D19E에서 FULL='BANLeyGFInvel02'와 EDID='BANLeyGFInvel02'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "0106D19E",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08438",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFInvel03",
+      "previous_korean": "BANLeyGFInvel03",
+      "reviewed_korean": "BANLeyGFInvel03",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 0106D19F에서 FULL='BANLeyGFInvel03'와 EDID='BANLeyGFInvel03'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "0106D19F",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08440",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFInvel04",
+      "previous_korean": "BANLeyGFInvel04",
+      "reviewed_korean": "BANLeyGFInvel04",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 0106D1A0에서 FULL='BANLeyGFInvel04'와 EDID='BANLeyGFInvel04'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "0106D1A0",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08442",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFInvel05",
+      "previous_korean": "BANLeyGFInvel05",
+      "reviewed_korean": "BANLeyGFInvel05",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 0106D1A1에서 FULL='BANLeyGFInvel05'와 EDID='BANLeyGFInvel05'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "0106D1A1",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08444",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFInvel06",
+      "previous_korean": "BANLeyGFInvel06",
+      "reviewed_korean": "BANLeyGFInvel06",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 0106D1A2에서 FULL='BANLeyGFInvel06'와 EDID='BANLeyGFInvel06'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "0106D1A2",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08446",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFInvel07",
+      "previous_korean": "BANLeyGFInvel07",
+      "reviewed_korean": "BANLeyGFInvel07",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 0106D1A3에서 FULL='BANLeyGFInvel07'와 EDID='BANLeyGFInvel07'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "0106D1A3",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g08448",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFInvel08",
+      "previous_korean": "BANLeyGFInvel08",
+      "reviewed_korean": "BANLeyGFInvel08",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 0106D1A4에서 FULL='BANLeyGFInvel08'와 EDID='BANLeyGFInvel08'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "0106D1A4",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g12575",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "PriestSpeech",
+      "previous_korean": "PriestSpeech",
+      "reviewed_korean": "PriestSpeech",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 01187383에서 FULL='PriestSpeech'와 EDID='PriestSpeech'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "01187383",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g15488",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-006.jsonl",
+      "english": "paScreaming",
+      "previous_korean": "paScreaming",
+      "reviewed_korean": "paScreaming",
+      "status": "approved",
+      "reason": "실제 추출 DIAL FormID 0200986A에서 FULL='paScreaming'와 EDID='paScreaming'가 일치함을 확인했다. 사용자에게 말하는 자연어가 아니라 내부 작동·퀘스트 단계용 식별자로 구성된 원문 토픽이며 초안도 불변이다. 번역 중 식별자 왜곡을 피하도록 원문 유지(KEEP). 게임 내 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "formid": "0200986A",
+        "full_equals_edid": true,
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g01171",
+      "record_type": "BOOK",
+      "field": "DESC",
+      "source_file": "active/needs_context-002.jsonl",
+      "english": "<font face=5><DIV align=\"center\">\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\nI have no yard, no stake in the yard.<br>\r\nAll cash my head is in silver.<br>\r\nDrunk. Tramp. Chatterbox. And since in gray hair<br>\r\nThe beard, then the devil is known to be in the rib.<br>",
+      "previous_korean": "<font face=5><DIV align=\"center\">\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n내겐 뜰도 없고, 뜰에 걸린 판돈도 없다.<br>\r\n내 머릿속의 모든 현금은 은화로 되어 있지.<br>\r\n주정뱅이. 뜨내기. 수다쟁이. 그리고 백발이 성성한 이래로<br>\r\n수염 속에는 악마가 깃들어 있다는 건 잘 알려진 사실이지.<br>",
+      "reviewed_korean": "<font face=5><DIV align=\"center\">\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n<br>\r\n내겐 뜰도 없고, 뜰에 걸린 판돈도 없다.<br>\r\n내 머릿속의 모든 현금은 은화로 되어 있지.<br>\r\n주정뱅이. 뜨내기. 수다쟁이. 머리칼이 희어지고<br>\r\n수염에도 흰빛이 돌면, 갈빗대 사이에 악마가 깃든다지.<br>",
+      "status": "corrected",
+      "reason": "The beard, then the devil is known to be in the rib는 수염 속에 악마가 있다는 뜻이 아니라 수염이 희어지면 갈비뼈/옆구리 쪽에 악마가 든다는 고어적 비유다. 지시 위치를 수정하고 시의 2행 구분 및 HTML 줄바꿈은 유지.",
+      "direct_english_korean_review": true
+    },
+    {
+      "id": "g01220",
+      "record_type": "BOOK",
+      "field": "DESC",
+      "source_file": "active/needs_context-003.jsonl",
+      "english": "<FONT face=3> <BR>\r\nMy dear,<BR>\r\n<BR>\r\nYour aunt Vana would very much like to see you as soon as possible. She doesn't have much time left as you know and would like to bury the Dagger between you two before she passes away. Come to the Mermaid Inn as soon as you can.<BR>\r\n<BR>\r\n<DIV align=right>Your uncle Bertold</DIV></FONT>",
+      "previous_korean": "<FONT face=3> <BR>\r\n사랑하는 조카에게,<BR>\r\n<BR>\r\n바나 고모가 가능한 한 빨리 너를 만나고 싶어 하신다. 너도 알다시피 고모에게 남은 시간이 많지 않으시니, 눈을 감으시기 전에 너희 두 사람 사이의 앙금을 털어내고 싶어 하신다. 가능한 한 빨리 인어 여관으로 오거라.<BR>\r\n<BR>\r\n<DIV align=right>삼촌 베르톨드 보냄</DIV></FONT>",
+      "reviewed_korean": "<FONT face=3> <BR>\r\n사랑하는 조카에게,<BR>\r\n<BR>\r\n바나 고모가 가능한 한 빨리 너를 만나고 싶어 하신다. 너도 알다시피 고모에게 남은 시간이 많지 않으시니, 눈을 감으시기 전에 너희 둘 사이의 '단검'을 묻고 앙금을 풀고 싶어 하신다. 가능한 한 빨리 인어 여관으로 오거라.<BR>\r\n<BR>\r\n<DIV align=right>삼촌 베르톨드 보냄</DIV></FONT>",
+      "status": "corrected",
+      "reason": "원문 bury the Dagger는 bury the hatchet(앙금을 풀다) 표현의 Dagger 변형이다. 동일 연계 퀘스트의 Blades 단검단(The Daggers)과 관련될 수도 있어 '단검'을 인용부호로 살리고 화해 의미도 남겼다. aunt Vana의 구체적인 촌수는 아직 불명.",
+      "direct_english_korean_review": true
+    },
+    {
+      "id": "g15832",
+      "record_type": "CELL",
+      "field": "FULL",
+      "source_file": "active/needs_context-006.jsonl",
+      "english": "Praxographical Center",
+      "previous_korean": "실용마법학 연구소",
+      "reviewed_korean": "프락소그래피 센터",
+      "status": "corrected",
+      "reason": "Praxographical Center의 Praxographical은 원문에 있는 전문적·고유 학문 명칭이며 이 CELL 단독 근거로 '실용마법학'이라는 특정 학문을 확정할 수 없다. 고유명은 프락소그래피로 음역하고 Center는 센터로 직역해 원문에 없는 기능을 제거.",
+      "direct_english_korean_review": true
+    },
+    {
+      "id": "g16158",
+      "record_type": "QUST",
+      "field": "FULL",
+      "source_file": "active/needs_context-006.jsonl",
+      "english": "Tear Yourself Together",
+      "previous_korean": "정신 차려",
+      "reviewed_korean": "찢어진 몸을 추슬러라",
+      "status": "corrected",
+      "reason": "Tear Yourself Together는 Pull Yourself Together(정신 차리다)를 Tear(찢다)로 바꾼 말장난이다. 드렝·칼루가르가 강령술사에게 습격당하는 동일 연계 퀘스트의 육체적 위험을 암시하므로 '찢어진 몸을 추슬러라'로 이중 의미 복구.",
+      "direct_english_korean_review": true
+    }
+  ],
+  "structural_validation": {
+    "record_ids_unique": true,
+    "html_tokens_preserved": true,
+    "crlf_count_preserved": true,
+    "placeholders_preserved": true
+  }
+}
