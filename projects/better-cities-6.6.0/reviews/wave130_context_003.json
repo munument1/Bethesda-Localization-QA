@@ -195,9 +195,9 @@
       "source_file": "active/needs_context-005.jsonl",
       "english": "Klatau is a merchant at Plated Plate in the Market District. This package is for him.",
       "previous_korean": "클라타우는 시장 구역의 플레이티드 플레이트 상인이다. 이 소포는 그를 위한 것이다.",
-      "reviewed_korean": "클라타우는 시장 구역의 도금 접시 상점에서 일한다. 이 소포는 그에게 줄 것이다.",
+      "reviewed_korean": "클라타우는 시장 구역의 도금 접시 상점에서 일하는 상인이다. 이 소포는 그에게 줄 것이다.",
       "status": "corrected",
-      "reason": "The Plated Plate는 시장 구역 업소 이름이다. 원문의 merchant at Plated Plate를 상점 직원 맥락으로 자연화하되 목적어 소포를 유지한다.",
+      "reason": "Plated Plate는 시장 구역 가게 이름이다. 동일 상호로 통일하면서 merchant와 소포 수령자가 클라타우라는 사실을 유지한다.",
       "direct_english_korean_review": true
     }
   ],
