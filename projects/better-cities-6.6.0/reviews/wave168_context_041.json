@@ -1,0 +1,67 @@
+{
+  "batch": "wave168_context_041",
+  "date": "2026-10-10",
+  "checkpoint": "wave167_context_040",
+  "scope": "Source ESM-verified Bloodscripts incantation letter preservation and Nanya Halls of Lorn antecedent",
+  "selected": 2,
+  "approved": 0,
+  "corrected": 2,
+  "needs_context": 0,
+  "review_decisions": [
+    {
+      "id": "g06355",
+      "record_type": "INFO",
+      "field": "NAM1",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "Nassantos! Durian! Fordandae! Uuhl! Aradosch! Daedranon! Dastott! Enturuul! Daedranon! Oblivion-portul! Ankot-Tuur!",
+      "previous_korean": "나산토스! 두리안! 포르단다에! 우흘! 아라도슈! 데드리논! 다스톳! 엔투룰! 데드리논! 오블리비온-포르툴! 안코트-투르!",
+      "reviewed_korean": "Nassantos! Durian! Fordandae! Uuhl! Aradosch! Daedranon! Dastott! Enturuul! Daedranon! Oblivion-portul! Ankot-Tuur!",
+      "status": "corrected",
+      "reason": "영문 원문과 기존 음역 번역을 직접 대조하고 Better Cities Resources.esm 원본의 INFO 01018131, 01018132, 01018161, 01018162 네 레코드에서 같은 주문 영창 문자열을 확인했다. 관련 화자는 Oron, 퀘스트는 BANBravilBMBloodscripts다. 정체불명 고유 영창의 음역본은 퍼즐 및 마법 단서의 문자 정확성을 잃게 하므로 최초 영문 철자·대소문자·하이픈·순서·공백·느낌표를 그대로 유지한다. 번역문은 내용 창작 없이 원문 문자열을 정확히 재현한다. 게임 내부의 스크립트·오디오 발음과 직접 결합하는지 별도 실기 검증은 하지 않았다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_plugin": "Better Cities Resources.esm",
+        "source_sha256": "a077145e143cac9af7b18de44f544fc56b91ed54b0c4e9c6516463cd040f5bc5",
+        "info_formids": [
+          "01018131",
+          "01018132",
+          "01018161",
+          "01018162"
+        ],
+        "reference": "reference_import/info_context.jsonl extracted from original ESM"
+      }
+    },
+    {
+      "id": "g12621",
+      "record_type": "INFO",
+      "field": "NAM1",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "Long before the 'Nine'. Ardan 'the Bloody' dedicated them to their downfall by betraying the Daedra.",
+      "previous_korean": "'나인'이 있기 훨씬 전의 일이에요. '피의' 아르단이 데이드라를 배신하면서 그곳을 그들의 몰락에 바쳤지요.",
+      "reviewed_korean": "'나인 디바인'이 나타나기 훨씬 전 일이에요. '피의 아르단'이 데이드라를 배신하면서 그 전당들을 몰락으로 몰아넣었죠.",
+      "status": "corrected",
+      "reason": "원본 Better Cities Resources.esm INFO 011873A6(BANBravilBMBloodscripts, 화자 Nanya)에서 한 발화의 직전 응답이 'It's a ruin. But once upon a time it was the Arcane Halls of Lorn.'임을 직접 확인했다. 따라서 뒤 문장의 them/their downfall의 문맥상 대상은 복수형 Halls(전당)이고, 초안의 '그곳을 그들의 몰락에 바쳤지요'는 모호하며 대상이 뒤섞였다. '아르단이 데이드라를 배신하면서 전당들을 몰락으로 몰아넣었다'로 동작 주체와 결과를 분명하게 수정. 'the Nine'은 오블리비언의 아홉 디바인을 가리키는 표현으로 보아 GLOSSARY의 '나인 디바인' 적용. 영어 원문이 문법상 부정확한 부분에 새 인물·퀘스트 사건을 추가하지 않았다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "original_plugin": "Better Cities Resources.esm",
+        "source_sha256": "a077145e143cac9af7b18de44f544fc56b91ed54b0c4e9c6516463cd040f5bc5",
+        "info_formids": [
+          "011873A6"
+        ],
+        "reference": "reference_import/info_context.jsonl extracted from original ESM"
+      }
+    }
+  ],
+  "structural_validation": {
+    "record_ids_unique": true,
+    "english_korean_directly_compared": true,
+    "html_tokens_preserved": true,
+    "crlf_count_preserved": true,
+    "placeholders_preserved": true,
+    "incantation_exact_source_preserved": true
+  },
+  "limitations": [
+    "No gameplay runtime or original actor audio checked. Torro speaker condition and DIAL user-facing issues remain held.",
+    "The Halls of Lorn original sentence is ungrammatical; correction avoids adding lore events."
+  ]
+}
