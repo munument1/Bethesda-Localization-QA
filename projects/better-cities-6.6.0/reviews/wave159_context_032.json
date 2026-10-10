@@ -1,0 +1,455 @@
+{
+  "batch": "wave159_context_032",
+  "date": "2026-10-10",
+  "checkpoint": "wave158_context_031",
+  "scope": "23 verified vanilla Oblivion FormID 00 DIAL FULL = EDID engine topic strings, preserve as original IDs",
+  "selected": 23,
+  "approved": 7,
+  "corrected": 16,
+  "needs_context": 0,
+  "review_decisions": [
+    {
+      "id": "g06557",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BarterFail",
+      "previous_korean": "물물교환 실패",
+      "reviewed_korean": "BarterFail",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00000110 (Oblivion.esm 00 원본 ID)의 DIAL FULL='BarterFail'와 EDID='BarterFail'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00000110",
+        "edid": "BarterFail",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06565",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BarterBuyItem",
+      "previous_korean": "물물교환 아이템 구매",
+      "reviewed_korean": "BarterBuyItem",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00000114 (Oblivion.esm 00 원본 ID)의 DIAL FULL='BarterBuyItem'와 EDID='BarterBuyItem'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00000114",
+        "edid": "BarterBuyItem",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06572",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BarterSellItem",
+      "previous_korean": "물물교환 아이템 판매",
+      "reviewed_korean": "BarterSellItem",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00000115 (Oblivion.esm 00 원본 ID)의 DIAL FULL='BarterSellItem'와 EDID='BarterSellItem'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00000115",
+        "edid": "BarterSellItem",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06580",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BarterExit",
+      "previous_korean": "흥정 종료",
+      "reviewed_korean": "BarterExit",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00000116 (Oblivion.esm 00 원본 ID)의 DIAL FULL='BarterExit'와 EDID='BarterExit'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00000116",
+        "edid": "BarterExit",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06589",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "SadGeneral",
+      "previous_korean": "슬픈 일반",
+      "reviewed_korean": "SadGeneral",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 0002410E (Oblivion.esm 00 원본 ID)의 DIAL FULL='SadGeneral'와 EDID='SadGeneral'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "0002410E",
+        "edid": "SadGeneral",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06601",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "FearGeneral",
+      "previous_korean": "두려움 일반",
+      "reviewed_korean": "FearGeneral",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00024110 (Oblivion.esm 00 원본 ID)의 DIAL FULL='FearGeneral'와 EDID='FearGeneral'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00024110",
+        "edid": "FearGeneral",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06612",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "AngerReceive",
+      "previous_korean": "분노 받기",
+      "reviewed_korean": "AngerReceive",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00024111 (Oblivion.esm 00 원본 ID)의 DIAL FULL='AngerReceive'와 EDID='AngerReceive'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00024111",
+        "edid": "AngerReceive",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06624",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "HappyReceive",
+      "previous_korean": "HappyReceive",
+      "reviewed_korean": "HappyReceive",
+      "status": "approved",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00024112 (Oblivion.esm 00 원본 ID)의 DIAL FULL='HappyReceive'와 EDID='HappyReceive'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00024112",
+        "edid": "HappyReceive",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06634",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "SurpriseReceive",
+      "previous_korean": "서프라이즈 수령",
+      "reviewed_korean": "SurpriseReceive",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00024113 (Oblivion.esm 00 원본 ID)의 DIAL FULL='SurpriseReceive'와 EDID='SurpriseReceive'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00024113",
+        "edid": "SurpriseReceive",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06644",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "FollowupNegative",
+      "previous_korean": "FollowupNegative",
+      "reviewed_korean": "FollowupNegative",
+      "status": "approved",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00024114 (Oblivion.esm 00 원본 ID)의 DIAL FULL='FollowupNegative'와 EDID='FollowupNegative'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00024114",
+        "edid": "FollowupNegative",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06658",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "FollowupPositive",
+      "previous_korean": "FollowupPositive",
+      "reviewed_korean": "FollowupPositive",
+      "status": "approved",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00024115 (Oblivion.esm 00 원본 ID)의 DIAL FULL='FollowupPositive'와 EDID='FollowupPositive'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00024115",
+        "edid": "FollowupPositive",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06672",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "AnswerNegative",
+      "previous_korean": "답변 부정",
+      "reviewed_korean": "AnswerNegative",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00024116 (Oblivion.esm 00 원본 ID)의 DIAL FULL='AnswerNegative'와 EDID='AnswerNegative'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00024116",
+        "edid": "AnswerNegative",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06682",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "AnswerPositive",
+      "previous_korean": "답변 긍정",
+      "reviewed_korean": "AnswerPositive",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00024117 (Oblivion.esm 00 원본 ID)의 DIAL FULL='AnswerPositive'와 EDID='AnswerPositive'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00024117",
+        "edid": "AnswerPositive",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06693",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "AnswerStatus",
+      "previous_korean": "답변 상태",
+      "reviewed_korean": "AnswerStatus",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00024118 (Oblivion.esm 00 원본 ID)의 DIAL FULL='AnswerStatus'와 EDID='AnswerStatus'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00024118",
+        "edid": "AnswerStatus",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06707",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "NeutralReceive",
+      "previous_korean": "중립 수령",
+      "reviewed_korean": "NeutralReceive",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 0002411A (Oblivion.esm 00 원본 ID)의 DIAL FULL='NeutralReceive'와 EDID='NeutralReceive'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "0002411A",
+        "edid": "NeutralReceive",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06753",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "CurrentEventsResponses",
+      "previous_korean": "최근 사건 응답",
+      "reviewed_korean": "CurrentEventsResponses",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00024E00 (Oblivion.esm 00 원본 ID)의 DIAL FULL='CurrentEventsResponses'와 EDID='CurrentEventsResponses'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00024E00",
+        "edid": "CurrentEventsResponses",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06805",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "TamrielGateResponses",
+      "previous_korean": "내부 대화 토픽: TamrielGateResponses",
+      "reviewed_korean": "TamrielGateResponses",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00024E17 (Oblivion.esm 00 원본 ID)의 DIAL FULL='TamrielGateResponses'와 EDID='TamrielGateResponses'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00024E17",
+        "edid": "TamrielGateResponses",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06813",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BookResponses",
+      "previous_korean": "책 응답",
+      "reviewed_korean": "BookResponses",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 000277AF (Oblivion.esm 00 원본 ID)의 DIAL FULL='BookResponses'와 EDID='BookResponses'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "000277AF",
+        "edid": "BookResponses",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06840",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "CreatureResponses",
+      "previous_korean": "내부 대화 토픽: CreatureResponses",
+      "reviewed_korean": "CreatureResponses",
+      "status": "corrected",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 00029191 (Oblivion.esm 00 원본 ID)의 DIAL FULL='CreatureResponses'와 EDID='CreatureResponses'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "00029191",
+        "edid": "CreatureResponses",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06927",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "MQ00NineDivinesResponse",
+      "previous_korean": "MQ00NineDivinesResponse",
+      "reviewed_korean": "MQ00NineDivinesResponse",
+      "status": "approved",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 0006137E (Oblivion.esm 00 원본 ID)의 DIAL FULL='MQ00NineDivinesResponse'와 EDID='MQ00NineDivinesResponse'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "0006137E",
+        "edid": "MQ00NineDivinesResponse",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06933",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "MQ00MythicDawnResponse",
+      "previous_korean": "MQ00MythicDawnResponse",
+      "reviewed_korean": "MQ00MythicDawnResponse",
+      "status": "approved",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 0018B1F2 (Oblivion.esm 00 원본 ID)의 DIAL FULL='MQ00MythicDawnResponse'와 EDID='MQ00MythicDawnResponse'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "0018B1F2",
+        "edid": "MQ00MythicDawnResponse",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06942",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "MQ00EmperorResponse",
+      "previous_korean": "MQ00EmperorResponse",
+      "reviewed_korean": "MQ00EmperorResponse",
+      "status": "approved",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 0018B1F3 (Oblivion.esm 00 원본 ID)의 DIAL FULL='MQ00EmperorResponse'와 EDID='MQ00EmperorResponse'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "0018B1F3",
+        "edid": "MQ00EmperorResponse",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    },
+    {
+      "id": "g06946",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "MQ00KvatchResponse",
+      "previous_korean": "MQ00KvatchResponse",
+      "reviewed_korean": "MQ00KvatchResponse",
+      "status": "approved",
+      "reason": "로컬 원본 Better Cities Resources.esm의 추출 레코드에서 FormID 0018B1F4 (Oblivion.esm 00 원본 ID)의 DIAL FULL='MQ00KvatchResponse'와 EDID='MQ00KvatchResponse'가 동일함을 직접 확인했다. NPC가 말하는 자연어가 아니라 본편의 내장 대화 토픽 식별자이므로 이 레코드에서 번역하지 않고 원본 식별자를 유지한다. 인게임 선택지 실제 노출 여부는 별도 게임 검증 사항이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "owner": "Oblivion.esm",
+        "formid": "0018B1F4",
+        "edid": "MQ00KvatchResponse",
+        "extracted_from": "D:\\Codex_Trans\\Better Cities 한국어 번역\\plugin_work_6.6.0a\\extracted.jsonl",
+        "full_equals_edid": true
+      }
+    }
+  ],
+  "structural_validation": {
+    "record_ids_unique": true,
+    "html_tokens_preserved": true,
+    "crlf_count_preserved": true,
+    "placeholders_preserved": true
+  }
+}
