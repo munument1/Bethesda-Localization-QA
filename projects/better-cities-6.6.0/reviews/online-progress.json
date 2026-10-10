@@ -72,8 +72,38 @@
     "target": 16182,
     "completed": 16182,
     "unprocessed": 0,
-    "approved": 11981,
-    "corrected": 3232,
-    "needs_context": 969
-  }
+    "approved": 11987,
+    "corrected": 3248,
+    "needs_context": 947
+  },
+  "context_decision_files": [
+    "reviews/wave128_context_001.json"
+  ],
+  "context_reviewed_ids": [
+    "g00003",
+    "g00161",
+    "g00256",
+    "g00260",
+    "g02249",
+    "g02137",
+    "g00172",
+    "g00175",
+    "g00297",
+    "g00603",
+    "g00732",
+    "g01251",
+    "g01654",
+    "g02310",
+    "g02311",
+    "g02312",
+    "g02313",
+    "g02314",
+    "g05699",
+    "g12409",
+    "g12109",
+    "g14841"
+  ],
+  "last_context_batch": "wave128_context_001",
+  "context_review_started": "2026-10-10",
+  "context_review_completed": 22
 }
