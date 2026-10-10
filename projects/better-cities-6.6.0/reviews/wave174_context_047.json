@@ -1,0 +1,42 @@
+{
+  "batch": "wave174_context_047",
+  "date": "2026-10-10",
+  "checkpoint": "wave173_context_046",
+  "scope": "User-directed close of the final hold by accepting existing text, not claiming runtime verification",
+  "selected": 1,
+  "approved": 1,
+  "corrected": 0,
+  "needs_context": 0,
+  "review_decisions": [
+    {
+      "id": "g12076",
+      "record_type": "INFO",
+      "field": "NAM1",
+      "source_file": "active/needs_context-007.jsonl",
+      "english": "Hold on! HACK! COUGH COUGH! Ugh! <spit>",
+      "previous_korean": "잠깐만! 큭! 콜록콜록! 으윽! <spit>",
+      "reviewed_korean": "잠깐만! 큭! 콜록콜록! 으윽! <spit>",
+      "status": "approved",
+      "direct_english_korean_review": true,
+      "reason": "사용자가 남은 유일한 미확인 <spit> 표기 1건을 변경하지 않고 넘어가도록 명시적으로 지시했다. 현재 한국어는 앞선 대사의 기침·고통을 번역하고 원본 <spit> 시퀀스를 정확히 보존한다. 인게임 자막의 태그 처리 여부는 확인하지 않았으며 승인 의미는 번역 원문 그대로 채택함을 뜻하지 기능/렌더링의 실증 검증을 뜻하지 않는다.",
+      "evidence": {
+        "original_plugin": "Better Cities Resources.esm",
+        "formid": "0114890B",
+        "topic": "BANICTunnelRitaTopicSmell01",
+        "speaker": "Rita the Rotten",
+        "remaining_triage": "reviews/remaining-context-triage_wave173_20261010.json",
+        "user_override": "Accept the final held item unchanged; do not await in-game validation.",
+        "rendering_test_performed": false,
+        "engine_tag_semantics_confirmed": false
+      }
+    }
+  ],
+  "structural_validation": {
+    "source_id_matches": true,
+    "text_unchanged": true,
+    "raw_spit_preserved": true,
+    "crlf_preserved": true
+  },
+  "explicit_runtime_exception": "<spit> may still be literal subtitle or engine directive. User chose to retain unchanged.",
+  "no_plugin_changes": true
+}
