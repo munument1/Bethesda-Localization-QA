@@ -1,0 +1,110 @@
+{
+  "batch": "wave169_context_042",
+  "date": "2026-10-10",
+  "checkpoint": "wave168_context_041",
+  "scope": "Anvil Urchin letter Aunt Vana cross-reference, Alyshia vocative, INFO spoken stage cues with original ESM",
+  "selected": 5,
+  "approved": 0,
+  "corrected": 5,
+  "needs_context": 0,
+  "review_decisions": [
+    {
+      "id": "g01016",
+      "record_type": "BOOK",
+      "field": "DESC",
+      "source_file": "active/needs_context-003.jsonl",
+      "english": "<FONT face=3> <BR>\r\nMy dear,<BR>\r\n<BR>\r\nPlease meet me at the usual Inn for we have matters to discuss about your Aunt.<BR>\r\n<BR>\r\n<DIV align=right>Your uncle Bertold</DIV></FONT>",
+      "previous_korean": "<FONT face=3> <BR>\r\n친애하는 이에게,<BR>\r\n<BR>\r\n고모님에 대해 논의할 일이 있으니 늘 가던 여관으로 와주게.<BR>\r\n<BR>\r\n<DIV align=right>삼촌 베르톨트</DIV></FONT>",
+      "reviewed_korean": "<FONT face=3> <BR>\r\n친애하는 이에게,<BR>\r\n<BR>\r\n바나 아주머니에 관해 상의할 일이 있으니 늘 가던 여관으로 와주게.<BR>\r\n<BR>\r\n<DIV align=right>삼촌 베르톨트</DIV></FONT>",
+      "status": "corrected",
+      "reason": "영문 원문 'your Aunt'와 다른 서적 BOOK 0114C742/BANAnvilRGUrchinLetter(그룹 g01220)의 'Your aunt Vana', 발신 서명 'Your uncle Bertold'를 교차 대조하여 이 편지의 Aunt가 바나(Vana)임을 확인했다. 본 편지는 BOOK 0106F087/BANAnvilRGUrchinLetter2로 서명도 같은 베르톨트다. 단, 고모/이모/숙모 중 친족 계통은 원문과 두 편지에서 특정되지 않으므로 이전 '고모님'을 중립적인 '바나 아주머니'로 바로잡았다. 'usual Inn'은 근처 다른 편지의 Mermaid Inn과 같을 수 있으나 원문에서 명시하지 않으므로 그대로 '늘 가던 여관'을 보존.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "primary": "Better Cities Resources.esm 6.6.0",
+        "sha256": "a077145e143cac9af7b18de44f544fc56b91ed54b0c4e9c6516463cd040f5bc5",
+        "source_context": "reference_import/info_context.jsonl and plugin_work_6.6.0a/extracted.jsonl"
+      }
+    },
+    {
+      "id": "g06273",
+      "record_type": "INFO",
+      "field": "NAM1",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "I stand here. Dum-dum.",
+      "previous_korean": "난 여기 서 있지. 멍청이처럼.",
+      "reviewed_korean": "나 여기 서 있잖아. 멍청아.",
+      "status": "corrected",
+      "reason": "원본 ESM 010EA957(HELLO, BANBravilBMGirlsTalk, 화자 Alyshia, 여성)의 응답 'I stand here. Dum-dum.'을 앞선 동일 화자 HELLO 응답 010EA956 'Come here, pay or leave.'와 대조했다. Dum-dum은 I stand here의 자기방식 비유('멍청이처럼 서 있다')가 아니라 상대를 부르는 독립적인 호격 모욕이다. '나 여기 서 있잖아. 멍청아.'로 교정해 발화 대상과 문장 두 개를 보존.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "primary": "Better Cities Resources.esm 6.6.0",
+        "sha256": "a077145e143cac9af7b18de44f544fc56b91ed54b0c4e9c6516463cd040f5bc5",
+        "source_context": "reference_import/info_context.jsonl and plugin_work_6.6.0a/extracted.jsonl"
+      }
+    },
+    {
+      "id": "g06445",
+      "record_type": "INFO",
+      "field": "NAM1",
+      "source_file": "active/needs_context-006.jsonl",
+      "english": "[COUGH]",
+      "previous_korean": "[COUGH]",
+      "reviewed_korean": "[기침]",
+      "status": "corrected",
+      "reason": "원본 ESM의 INFO 0102C5A7 외에도 0102C5A6/0102C5AB 등 같은 [COUGH] 텍스트 응답을 확인했다. 화자는 Aina the Mad, 주제 INFOGENERAL, TRDT 뒤 NAM1에 표기된 [COUGH]이고 actor_notes는 비어 있다. 음성 지시를 한글 [기침]으로 표현하면서 원문 대괄호 양쪽 및 단독 응답 형식을 유지한다. 별도 엔진 명령으로 임의 해석하지 않았으며 실제 인게임 텍스트 표시 방식은 미실증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "primary": "Better Cities Resources.esm 6.6.0",
+        "sha256": "a077145e143cac9af7b18de44f544fc56b91ed54b0c4e9c6516463cd040f5bc5",
+        "source_context": "reference_import/info_context.jsonl and plugin_work_6.6.0a/extracted.jsonl"
+      }
+    },
+    {
+      "id": "g06446",
+      "record_type": "INFO",
+      "field": "NAM1",
+      "source_file": "active/needs_context-007.jsonl",
+      "english": "[SNIFF]",
+      "previous_korean": "[SNIFF]",
+      "reviewed_korean": "[코를 훌쩍임]",
+      "status": "corrected",
+      "reason": "원본 ESM의 INFO 0102C5A8, 0102C5A9, 0102C5AC 등 동일 [SNIFF] 응답을 확인했다. 모두 Aina the Mad 인물의 INFOGENERAL 반응이며 영어 sniff는 코를 훌쩍이는 동작을 뜻한다. 음성 지시를 대괄호 형식 [코를 훌쩍임]으로 교정하고 하이픈/플레이스홀더는 존재하지 않는다. 실제 오디오·런타임 출력은 별도 확인 대상.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "primary": "Better Cities Resources.esm 6.6.0",
+        "sha256": "a077145e143cac9af7b18de44f544fc56b91ed54b0c4e9c6516463cd040f5bc5",
+        "source_context": "reference_import/info_context.jsonl and plugin_work_6.6.0a/extracted.jsonl"
+      }
+    },
+    {
+      "id": "g06516",
+      "record_type": "INFO",
+      "field": "NAM1",
+      "source_file": "active/needs_context-006.jsonl",
+      "english": "[SIGH] The mistress dresses splendidly again today.",
+      "previous_korean": "[SIGH] 여주인께서는 오늘도 화려하게 차려입으셨네.",
+      "reviewed_korean": "[한숨] 여주인께서는 오늘도 화려하게 차려입으셨네.",
+      "status": "corrected",
+      "reason": "원본 Better Cities Resources.esm INFO 0102CAB0, BANNQDBloodCastle/INFOGENERAL, 원문 [SIGH] The mistress dresses splendidly again today.의 무대지시와 본문을 대조했다. 정보 조건은 BloodCastle 소속 계급, 남성 화자 조건, 여성 대상 조건을 포함하며 특정 이름은 확정되지 않는다. 기존 본문은 의미가 맞으므로 그대로 보존하고 [SIGH]만 [한숨]으로 번역했다. 대괄호 유지, 말투의 성별 추측 확장 없음.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "primary": "Better Cities Resources.esm 6.6.0",
+        "sha256": "a077145e143cac9af7b18de44f544fc56b91ed54b0c4e9c6516463cd040f5bc5",
+        "source_context": "reference_import/info_context.jsonl and plugin_work_6.6.0a/extracted.jsonl"
+      }
+    }
+  ],
+  "structural_validation": {
+    "ids_unique": true,
+    "html_tokens_preserved": true,
+    "crlf_preserved": true,
+    "square_brackets_preserved": true,
+    "source_match": true,
+    "placeholder_preserved": true
+  },
+  "open_context_notes": [
+    "Audio/subtitle rendering was not observed in a running game; square brackets are preserved as printed stage-cue delimiters.",
+    "The family relation branch of Aunt (maternal/paternal/by marriage) remains unspecified; Vana is explicitly named by parallel book g01220.",
+    "The second letter g01220 may require consistency review if its already reviewed Korean specifies '고모'; not retroactively changed here."
+  ]
+}
