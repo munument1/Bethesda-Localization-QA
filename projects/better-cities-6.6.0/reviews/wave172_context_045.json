@@ -1,0 +1,101 @@
+{
+  "batch": "wave172_context_045",
+  "date": "2026-10-10",
+  "checkpoint": "wave171_context_044",
+  "scope": "Original Better Cities Resources.esm DIAL DATA and original scripted SCTX conversations",
+  "selected": 2,
+  "approved": 2,
+  "corrected": 0,
+  "needs_context": 0,
+  "review_decisions": [
+    {
+      "id": "g08423",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "BANLeyGFCemeteryIntro01",
+      "previous_korean": "BANLeyGFCemeteryIntro01",
+      "reviewed_korean": "BANLeyGFCemeteryIntro01",
+      "status": "approved",
+      "direct_english_korean_review": true,
+      "reason": "원본 Better Cities Resources.esm에서 두 DIAL 모두 DATA=01(Conversation)인 것을 직접 읽고, 독립된 SCTX 스크립트의 BANLeyawiinMemoryCemeteryTalkRef.Say 호출이 EDID 'BANLeyGFCemeteryIntro01'과 'BANLeyGFCemetery01'를 각각 명시하는 사실을 확인. 두 레코드가 동일 FULL 문자열을 공유하지만 이는 번역 대상 자연어가 아니라 NPC 장면 대화 식별자이다. 서적/플레이어 메뉴처럼 한국어로 번역하지 않고 원문 그대로 유지한다. 게임 실행 표시 직접 테스트는 아니므로 UI 자체의 잠재적 버그는 별도다.",
+      "evidence": {
+        "plugin": "Better Cities Resources.esm",
+        "sha256": "a077145e143cac9af7b18de44f544fc56b91ed54b0c4e9c6516463cd040f5bc5",
+        "sources": [
+          {
+            "formid": "0106B0DC",
+            "edid": "BANLeyGFCemeteryIntro01",
+            "dial_data_hex": "01",
+            "quest": "BANLeyawiinGhostFinalA",
+            "linked_info": "0106B0DD"
+          },
+          {
+            "formid": "0106B1B8",
+            "edid": "BANLeyGFCemetery01",
+            "dial_data_hex": "01",
+            "quest": "BANLeyawiinGhostFinalA",
+            "linked_info": "0106B1BC"
+          }
+        ],
+        "script_calls": [
+          "BANLeyawiinMemoryCemeteryTalkRef.Say BANLeyGFCemeteryIntro01 0 BANLeyawiinOliviaMemoryCemetery 1",
+          "BANLeyawiinMemoryCemeteryTalkRef.Say BANLeyGFCemetery01 0 BANLeyawiinOliviaMemoryCemetery 1"
+        ],
+        "script_evidence": "Both DIAL subjects called by original source ESM SCTX Say lines; Type 1 Conversation, scene NPC Lady Olivia Valerius.",
+        "inspected": "Uncompressed native DIAL DATA, EDID/FULL subrecords + SCTX source scripts, original ESM",
+        "runtime_test": false
+      }
+    },
+    {
+      "id": "g12582",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-005.jsonl",
+      "english": "SayjidSpells",
+      "previous_korean": "SayjidSpells",
+      "reviewed_korean": "SayjidSpells",
+      "status": "approved",
+      "direct_english_korean_review": true,
+      "reason": "원본 Better Cities Resources.esm에서 DIAL 01187392/EDID BravilSayjidCasts/DATA=01(Conversation)와 BravilSayjidCastsSCRIPT의 SCTX 'SayjidRef.StartConversation SayjidRef, BravilSayjidCasts'를 직접 확인. 이는 퀘스트 상황에서 사지드가 시작하는 스크립트 기반 대화이며 FULL 'SayjidSpells'는 인게임 일반 대화 선택지 제목이라고 가정할 근거가 없다. 원문 식별 문자열을 그대로 유지하고 승인한다. 실제 게임의 오디오와 화면 표기는 미실증이다.",
+      "evidence": {
+        "plugin": "Better Cities Resources.esm",
+        "sha256": "a077145e143cac9af7b18de44f544fc56b91ed54b0c4e9c6516463cd040f5bc5",
+        "sources": [
+          {
+            "formid": "01187392",
+            "edid": "BravilSayjidCasts",
+            "dial_data_hex": "01",
+            "quest": "BANBravilBMBladeOfTheGoddess",
+            "linked_info": [
+              "01003D65",
+              "01003D67",
+              "01003D68",
+              "01003D69"
+            ]
+          }
+        ],
+        "script_calls": [
+          "SayjidRef.StartConversation SayjidRef, BravilSayjidCasts"
+        ],
+        "script_evidence": "Original ESM SCTX script EDID BravilSayjidCastsSCRIPT, begin onTrigger Player; if triggered == 0 and quest stage <60, NPC Sayjid invokes scripted self-conversation.",
+        "inspected": "Uncompressed native DIAL DATA, EDID/FULL subrecords + SCTX source scripts, original ESM",
+        "runtime_test": false
+      }
+    }
+  ],
+  "structural_validation": {
+    "unique_ids": true,
+    "english_korean_source_safe": true,
+    "original_internal_ids_preserved": true,
+    "html_tags_preserved": true,
+    "linebreaks_preserved": true,
+    "script_dial_links_both_verified": true
+  },
+  "notes": [
+    "Original DIAL DATA type 1 Conversation verified for all three distinct source records, including two g08423 occurrences.",
+    "Direct SCTX scripts call both cemetery IDs by Say and BravilSayjidCasts by StartConversation.",
+    "Runtime actual subtitle/UI rendering not verified; identifier localization left unchanged by source design.",
+    "Only review decision metadata changed, no original ESM/ESP edits."
+  ]
+}
