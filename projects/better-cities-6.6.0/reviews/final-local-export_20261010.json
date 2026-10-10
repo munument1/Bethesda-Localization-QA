@@ -1,0 +1,53 @@
+{
+  "project": "Better Cities Original 6.6.0 + Imperial City compatibility update 6.6.0a",
+  "date": "2026-10-10",
+  "status": "FINAL_LOCAL_PACKAGE_CREATED_NOT_RELEASED",
+  "qa_record": "reviews/online-progress.json",
+  "last_review_batch": "wave174_context_047",
+  "translation_review": {
+    "total": 16182,
+    "approved": 12386,
+    "corrected": 3796,
+    "needs_context": 0,
+    "unprocessed": 0
+  },
+  "local_package": {
+    "windows_desktop_folder": "C:\\Users\\seung\\OneDrive\\Desktop\\Better Cities 6.6.0a 한국어 번역",
+    "windows_desktop_zip": "C:\\Users\\seung\\OneDrive\\Desktop\\Better Cities 6.6.0a 한국어 번역.zip",
+    "zip_size_mib": 21.71,
+    "sha256": "c1dbb1bd8a0096522c55c4c43fb199b42419d1dfc6ddb59aab90a921ca595a43",
+    "translation_file_count": 78,
+    "optional_link_cfg_translation": true,
+    "github_binary_uploaded": false
+  },
+  "native_verification": {
+    "effective_source_plugins": 87,
+    "translated_files": 78,
+    "untouched_files": 9,
+    "matched_original_text_occurrences": 24266,
+    "translated_occurrences": 24151,
+    "unchanged_original_strings": 115,
+    "paired_native_record_count": 404677,
+    "nonlocalized_subrecords_unchanged": 1380539,
+    "source_sha256_verified": true,
+    "field_contents_reverified": true,
+    "structural_validation": "PASS_INDEPENDENT_FIELD_AND_STRUCTURE_COMPARISON"
+  },
+  "known_limits": [
+    "User-directed g12076 <spit> retained unchanged without verifying runtime tag handling.",
+    "Source actor condition mismatch (Torro/Melyssa) was diagnosed but original plugin engine metadata not changed.",
+    "Full game playthrough, rendered Korean text and installed Mod Organizer 2 load order not verified.",
+    "Package contains alternative plugin selections; users must install only matching already-selected source plugins.",
+    "Original ESM/ESP source files left unmodified.",
+    "This is a local file output. No GitHub/Nexus release created."
+  ],
+  "workspace_cleanup": {
+    "active_workspace": "D:\\Codex_Trans\\Better Cities 한국어 번역",
+    "active_workspace_files": [
+      "Better Cities 6.6.0a 한국어 번역.zip"
+    ],
+    "preserved_review_archive": "D:\\Codex_Trans\\_검수_작업자료_보관\\Better Cities 6.6.0+6.6.0a QA_20261010",
+    "preserved_residual_archive": "D:\\Codex_Trans\\_Better Cities 잔여자료 보관_20261010",
+    "note": "Sources and unrelated NorthernUI/Skyrim references were not deleted. Previous files were moved to archives; build output only remains in working directory."
+  }
+}
