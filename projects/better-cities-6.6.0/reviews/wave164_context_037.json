@@ -1,0 +1,99 @@
+{
+  "batch": "wave164_context_037",
+  "date": "2026-10-10",
+  "checkpoint": "wave163_context_036",
+  "scope": "Ma Syd Jun trade-relationship honorifics, Jolard internal faction names, complete rites and Sithis family letter",
+  "selected": 5,
+  "approved": 2,
+  "corrected": 3,
+  "needs_context": 0,
+  "review_decisions": [
+    {
+      "id": "g00905",
+      "record_type": "BOOK",
+      "field": "DESC",
+      "source_file": "active/needs_context-002.jsonl",
+      "english": "<div align=\"left\"><FONT face=5><FONT color=\"000000\">Dear helper,<br>\r\n<br>\r\nSire,<br>\r\n<br>\r\nIt is my pleasure to see that you are still alive. We have been seriously concerned for your well-being, sire.<br>\r\n<br>\r\nTake the ladder as a present from me, sire. A little gift.<br>\r\n<br>\r\nBear in mind, should you no longer have use for the blade, I'd be more than happy to make you a fair offer.<br>\r\n<br>\r\nIncidentally, we also carry healing potions against all forms of epidemics, which some people may be pick up when sneaking around in labyrinths, sire - do not be afraid of contagion.<br>\r\n<br>\r\nWell, sire, life must seem as changeable to you as the autumn dresses of the trees, and you will move on.<br>\r\n<br>\r\nOur one, sire. However, I'm sure that we'll see each other again sometime.<br>\r\n<br>\r\nWith eternal respect,<br>\r\nMa Syd Jun<br>",
+      "previous_korean": "<div align=\"left\"><FONT face=5><FONT color=\"000000\">친애하는 조력자여,<br>\r\n<br>\r\n주군이시여,<br>\r\n<br>\r\n당신이 여전히 살아 계신 것을 보니 기쁘군요. 저희는 주군의 안위가 심히 걱정되었답니다, 주군.<br>\r\n<br>\r\n사다리는 저의 선물로 받으시지요, 주군. 작은 선물입니다.<br>\r\n<br>\r\n명심하십시오, 만약 더 이상 검이 필요치 않게 된다면, 기꺼이 합리적인 가격으로 매입해 드릴 수 있습니다.<br>\r\n<br>\r\n그나저나, 저희는 미로 같은 곳을 살금살금 돌아다니다 보면 누군가 걸릴 수 있는 각종 전염병에 대항하는 치유 포션도 취급하고 있답니다, 주군 - 전염을 두려워 마세요.<br>\r\n<br>\r\n음, 주군, 인생이란 나무의 가을 옷처럼 당신에게도 변덕스럽게 보일 테고, 당신은 또 나아가겠지요.<br>\r\n<br>\r\n우리의 유일한 분이시여, 주군. 하지만 언젠가 다시 만나게 될 것이라 확신합니다.<br>\r\n<br>\r\n변함없는 경의를 표하며,<br>\r\n마 시드 준(Ma Syd Jun)<br>",
+      "reviewed_korean": "<div align=\"left\"><FONT face=5><FONT color=\"000000\">친애하는 조력자여,<br>\r\n<br>\r\n나리,<br>\r\n<br>\r\n당신이 여전히 살아 계신 것을 보니 기쁘군요. 저희는 나리의 안위가 심히 걱정되었답니다, 나리.<br>\r\n<br>\r\n사다리는 저의 선물로 받으시지요, 나리. 작은 선물입니다.<br>\r\n<br>\r\n명심하십시오, 만약 더 이상 검이 필요치 않게 된다면, 기꺼이 합리적인 가격으로 매입해 드릴 수 있습니다.<br>\r\n<br>\r\n그나저나, 저희는 미로 같은 곳을 살금살금 돌아다니다 보면 누군가 걸릴 수 있는 각종 전염병에 대항하는 치유 포션도 취급하고 있답니다, 나리 - 전염을 두려워 마세요.<br>\r\n<br>\r\n음, 나리, 인생이란 나무의 가을 옷처럼 당신에게도 변덕스럽게 보일 테고, 당신은 또 나아가겠지요.<br>\r\n<br>\r\n우리의 유일한 분이시여, 나리. 하지만 언젠가 다시 만나게 될 것이라 확신합니다.<br>\r\n<br>\r\n변함없는 경의를 표하며,<br>\r\n마 시드 준(Ma Syd Jun)<br>",
+      "status": "corrected",
+      "reason": "본편 추출 QUST BANBravilBMBladeOfTheGoddess의 100·110단계에서 마 시드 준은 나미라의 검을 거래하려는 상인에 가까우며 플레이어의 주군이 아니다. 반복되는 Sire는 고객을 부르는 '나리'로 통일해 불필요한 봉신/주군 관계를 제거했다. 원문 'Our one'의 비문과 ladder 등 명확하지 않은 문장은 임의 변경하지 않았다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "quest": "BANBravilBMBladeOfTheGoddess",
+        "stages": [
+          100,
+          110
+        ],
+        "source": "reference_import/quest_stages.jsonl"
+      }
+    },
+    {
+      "id": "g14659",
+      "record_type": "FACT",
+      "field": "FULL",
+      "source_file": "active/needs_context-006.jsonl",
+      "english": "JolardManorFaction1",
+      "previous_korean": "졸라르 저택 팩션 1",
+      "reviewed_korean": "JolardManorFaction1",
+      "status": "corrected",
+      "reason": "원본 FACT FormID 02001C92에서 FULL='JolardManorFaction1', EDID='JolardManorFaction'으로 둘 다 내부 Faction 식별자 형태다. 번역 초안의 '졸라르 저택 팩션 1'은 자연어가 아닌 내부 태그를 임의 변형했으므로 원문 표시 식별자 유지(KEEP)로 교정했다. 실제 플레이어의 파벌명 표시 여부는 미검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "formid": "02001C92",
+        "editor_id": "JolardManorFaction",
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g14662",
+      "record_type": "FACT",
+      "field": "FULL",
+      "source_file": "active/needs_context-006.jsonl",
+      "english": "JolardCreatureFaction",
+      "previous_korean": "졸라르 크리처 팩션",
+      "reviewed_korean": "JolardCreatureFaction",
+      "status": "corrected",
+      "reason": "원본 FACT FormID 02009128에서 FULL와 EDID가 모두 JolardCreatureFaction인 내부 Faction 식별자이다. 기존 번역에서 한글 일반 명칭으로 바꾼 내부 코드성 이름을 그대로 유지한다. 실제 UI 표시 여부는 별도 게임 검증.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "formid": "02009128",
+        "editor_id": "JolardCreatureFaction",
+        "source": "plugin_work_6.6.0a/extracted.jsonl",
+        "runtime_visibility_verified": false
+      }
+    },
+    {
+      "id": "g00921",
+      "record_type": "BOOK",
+      "field": "DESC",
+      "source_file": "active/needs_context-002.jsonl",
+      "english": "<div align=\"center\"><FONT color=\"464646\">RITES OF PORTALS<p><FONT color=\"653229\">\r\nThe Opening of a Sacred Portal<p>\r\n<div align=\"left\"><FONT color=\"470000\">\r\n\r\nTo the wolf's hour hold,<br>\r\nthe moon's zenith,<br>\r\nthe orders of old,<br>\r\ntight to thee.<br>\r\nTo the altar stride,<br>\r\nto wolf's hour hold,<br>\r\nthe orders of old,<br>\r\ntight to thee,<br>\r\nAt the altar hold,<br>\r\nthe orders of old,<br>\r\ntight to thee,<br>\r\nsound songs of saints<br>\r\ndisperse the seal for thee.<p>\r\n\r\n<div align=\"center\"><FONT color=\"653229\">\r\nThe Opening of a Sealed Portal<p>\r\n<div align=\"left\"><FONT color=\"470000\">\r\n\r\nKnow of the spell of seal,<br>\r\nbound in stone, wood or steel.<br>\r\nBow to the spell of seal,<br>\r\nbound in stone, wood or steel.<p>\r\n\r\nSlide with hand of left,<br>\r\nlines from right to left,<br>\r\nso loose thy flesh the spell of seal,<br>\r\nbound in stone, in wood or steel.<p>\r\n\r\n<div align=\"center\"><FONT color=\"653229\">\r\nThe Opening of a Blood Portal<p>\r\n<div align=\"left\"><FONT color=\"470000\">\r\n\r\nNo spell nor pledge, <br>\r\nonly warm life brew is considered known,<br>\r\nto the one who breaks a blood-seal.<br>\r\n\r\nSo may a victim,<br>\r\nthat gave its life,<br>\r\non its victim's altar,<br>\r\nserve the blood portal as its key.<p>",
+      "previous_korean": "<div align=\"center\"><FONT color=\"464646\">차원문의 의식<p><FONT color=\"653229\">\r\n성스러운 차원문의 개방<p>\r\n<div align=\"left\"><FONT color=\"470000\">\r\n\r\n늑대의 시간에 머물며,<br>\r\n달이 중천에 뜰 때,<br>\r\n고대의 명령은,<br>\r\n그대에게 굳게 묶이리라.<br>\r\n제단으로 성큼 걸어가,<br>\r\n늑대의 시간에 머물며,<br>\r\n고대의 명령은,<br>\r\n그대에게 굳게 묶이리라,<br>\r\n제단에 머물며,<br>\r\n고대의 명령은,<br>\r\n그대에게 굳게 묶이리라,<br>\r\n성인의 노래를 울려<br>\r\n그대를 위해 봉인을 흩어라.<p>\r\n\r\n<div align=\"center\"><FONT color=\"653229\">\r\n봉인된 차원문의 개방<p>\r\n<div align=\"left\"><FONT color=\"470000\">\r\n\r\n봉인의 주문을 알지니,<br>\r\n돌, 나무, 혹은 강철에 묶였도다.<br>\r\n봉인의 주문에 고개 숙여라,<br>\r\n돌, 나무, 혹은 강철에 묶였도다.<p>\r\n\r\n왼손으로 미끄러뜨리며,<br>\r\n우측에서 좌측으로 선을 그어라,<br>\r\n그리하여 그대의 살에서 봉인의 주문을 풀지니,<br>\r\n돌, 나무, 혹은 강철에 묶였도다.<p>\r\n\r\n<div align=\"center\"><FONT color=\"653229\">\r\n피의 차원문의 개방<p>\r\n<div align=\"left\"><FONT color=\"470000\">\r\n\r\n어떤 주문이나 맹세도 아닌, <br>\r\n오직 따스한 생명의 즙만이 인정되리니,<br>\r\n피의 봉인을 깨뜨리는 자에게는.<br>\r\n\r\n그리하여 목숨을 바친<br>\r\n희생자가,<br>\r\n그 제단 위에서,<br>\r\n피의 차원문의 열쇠가 되어주리라.<p>",
+      "reviewed_korean": "<div align=\"center\"><FONT color=\"464646\">차원문의 의식<p><FONT color=\"653229\">\r\n성스러운 차원문의 개방<p>\r\n<div align=\"left\"><FONT color=\"470000\">\r\n\r\n늑대의 시간에 머물며,<br>\r\n달이 중천에 뜰 때,<br>\r\n고대의 명령은,<br>\r\n그대에게 굳게 묶이리라.<br>\r\n제단으로 성큼 걸어가,<br>\r\n늑대의 시간에 머물며,<br>\r\n고대의 명령은,<br>\r\n그대에게 굳게 묶이리라,<br>\r\n제단에 머물며,<br>\r\n고대의 명령은,<br>\r\n그대에게 굳게 묶이리라,<br>\r\n성인의 노래를 울려<br>\r\n그대를 위해 봉인을 흩어라.<p>\r\n\r\n<div align=\"center\"><FONT color=\"653229\">\r\n봉인된 차원문의 개방<p>\r\n<div align=\"left\"><FONT color=\"470000\">\r\n\r\n봉인의 주문을 알지니,<br>\r\n돌, 나무, 혹은 강철에 묶였도다.<br>\r\n봉인의 주문에 고개 숙여라,<br>\r\n돌, 나무, 혹은 강철에 묶였도다.<p>\r\n\r\n왼손으로 미끄러뜨리며,<br>\r\n우측에서 좌측으로 선을 그어라,<br>\r\n그리하여 그대의 살에서 봉인의 주문을 풀지니,<br>\r\n돌, 나무, 혹은 강철에 묶였도다.<p>\r\n\r\n<div align=\"center\"><FONT color=\"653229\">\r\n피의 차원문의 개방<p>\r\n<div align=\"left\"><FONT color=\"470000\">\r\n\r\n어떤 주문이나 맹세도 아닌, <br>\r\n오직 따스한 생명의 즙만이 인정되리니,<br>\r\n피의 봉인을 깨뜨리는 자에게는.<br>\r\n\r\n그리하여 목숨을 바친<br>\r\n희생자가,<br>\r\n그 제단 위에서,<br>\r\n피의 차원문의 열쇠가 되어주리라.<p>",
+      "status": "approved",
+      "reason": "RITES OF PORTALS 전문에서 세 의식(성스러운 차원문·봉인된 차원문·피의 차원문)의 순서와 원문 손동작·방향(right to left)·재료(따뜻한 생명)·봉인 해제·희생 제단을 각 행별로 대조했다. 시구 자체가 비문/시적 암호지만 초안은 새로운 순서·조건을 창작하지 않고 지시어와 <p>/<br>의 구조를 보존하므로 현 텍스트 승인. 실제 게임 퍼즐 판정은 별도 검증.",
+      "direct_english_korean_review": true
+    },
+    {
+      "id": "g01270",
+      "record_type": "BOOK",
+      "field": "DESC",
+      "source_file": "active/needs_context-002.jsonl",
+      "english": "<div align=\"left\">Oh my sweet beloved Lady<br>\r\n<br>\r\n<br>\r\nIt hurts me that I violate your body. But now our son has to pay for my crime. He must repent to have simply torn the life from you. You always so gladly reminded me when we first came to Bruma and I swear on my honoured dear Sithis that I will find our ill-suited son.<br>\r\n<br>\r\nI have accomplished the ritual now and it's time for me to go. Oh I will make you happy again when you will hold him in your arms with our beautiful daughter whose life ended as well.<br>\r\n<br>\r\n<br>\r\nFarewell my beautiful Bruma and farewell my daughter and you my son, may the devil find you!<br>\r\n<br>\r\nFarewell<br>\r\n<br>\r\nHolgrat Demret<br>",
+      "previous_korean": "<div align=\"left\">오, 나의 다정하고 사랑스러운 부인에게<br>\r\n<br>\r\n<br>\r\n당신의 몸을 훼손하게 되어 마음이 아프오. 하지만 이제 우리 아들이 내 죄의 대가를 치러야 하오. 그 아이는 당신에게서 생명을 앗아간 것에 대해 참회해야만 하오. 우리가 처음 브루마에 왔을 때 당신은 늘 기꺼이 내게 상기시켜 주었지. 내 영예롭고 소중한 시디스의 이름으로 맹세코 우리에게 어울리지 않는 그 아들을 찾아내겠소.<br>\r\n<br>\r\n이제 의식을 마쳤으니 떠날 시간이야. 오, 삶이 끝난 우리의 어여쁜 딸과 함께 그 아이를 품에 안을 때 당신을 다시 행복하게 만들어 주겠소.<br>\r\n<br>\r\n<br>\r\n잘 있거라 나의 아름다운 브루마여, 잘 있거라 나의 딸이여, 그리고 내 아들이여, 악마가 너를 찾아내기를!<br>\r\n<br>\r\n잘 있소<br>\r\n<br>\r\n홀그라트 뎀레트<br>",
+      "reviewed_korean": "<div align=\"left\">오, 나의 다정하고 사랑스러운 부인에게<br>\r\n<br>\r\n<br>\r\n당신의 몸을 훼손하게 되어 마음이 아프오. 하지만 이제 우리 아들이 내 죄의 대가를 치러야 하오. 그 아이는 당신에게서 생명을 앗아간 것에 대해 참회해야만 하오. 우리가 처음 브루마에 왔을 때 당신은 늘 기꺼이 내게 상기시켜 주었지. 내 영예롭고 소중한 시디스의 이름으로 맹세코 우리에게 어울리지 않는 그 아들을 찾아내겠소.<br>\r\n<br>\r\n이제 의식을 마쳤으니 떠날 시간이야. 오, 삶이 끝난 우리의 어여쁜 딸과 함께 그 아이를 품에 안을 때 당신을 다시 행복하게 만들어 주겠소.<br>\r\n<br>\r\n<br>\r\n잘 있거라 나의 아름다운 브루마여, 잘 있거라 나의 딸이여, 그리고 내 아들이여, 악마가 너를 찾아내기를!<br>\r\n<br>\r\n잘 있소<br>\r\n<br>\r\n홀그라트 뎀레트<br>",
+      "status": "approved",
+      "reason": "Holgrat Demret의 서신 원문과 모든 문단을 비교했다. 화자가 부인의 시신에 의식을 치르고 아들이 어머니의 죽음에 책임이 있으며 자신도 죄책감을 느끼고 죽은 딸과 부인의 재회를 바라는 역설적인 고백, 시디스 맹세 및 가족에 대한 저주가 번역에 모두 존재한다. '아들이 내 죄를 갚는다'라는 비논리적 책임 관계는 원문부터 있는 서사이므로 임의로 바꾸지 않았다. HTML과 CRLF 보존.",
+      "direct_english_korean_review": true
+    }
+  ],
+  "structural_validation": {
+    "record_ids_unique": true,
+    "html_tokens_preserved": true,
+    "crlf_count_preserved": true,
+    "placeholders_preserved": true
+  },
+  "runtime_validation_note": "게임 내 파벌 표시와 차원문 퍼즐의 엔진 작동 조건은 별도로 검증"
+}
