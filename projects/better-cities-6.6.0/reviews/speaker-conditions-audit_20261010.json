@@ -1,0 +1,167 @@
+{
+  "project": "Better Cities 6.6.0 / Imperial City 6.6.0a",
+  "date": "2026-10-10",
+  "source": "Local extracted.jsonl and reference_import/info_context.jsonl",
+  "status": "speaker_metadata_evidence_only",
+  "finding": "BravilMelvsTorOut dialogue contains multiple Torro-addressed INFO responses whose GetIsID and resolved speaker are Torro; translation cannot repair NPC ownership. Kalgar gra-Magul records require sex/name consistency check.",
+  "items": [
+    {
+      "ids": [
+        "g07595"
+      ],
+      "info_formid": "0105E4FE",
+      "parent_topic": "BANChorrolPregGirlViraniTopicSova",
+      "quest": "BANChorrolPregGirlQuest",
+      "speaker_name": "Virani",
+      "speaker_editor_id": "BANChorrolArchGuildMemberVirani",
+      "speaker_formid": "01022ACC",
+      "gender": "FEMALE",
+      "is_id_conditions": [
+        "01022ACC"
+      ],
+      "scene": null,
+      "speaker_status": "confirmed_required_GetIsID_or_GetIsReference"
+    },
+    {
+      "ids": [
+        "g07970"
+      ],
+      "info_formid": "01039A14",
+      "parent_topic": "BravilMelvsTorOut",
+      "quest": "BANNQDBravilBM",
+      "speaker_name": "Torro",
+      "speaker_editor_id": "BANBravilTorro",
+      "speaker_formid": "0101A41D",
+      "gender": "MALE",
+      "is_id_conditions": [
+        "0101A41D"
+      ],
+      "scene": null,
+      "speaker_status": "confirmed_required_GetIsID_or_GetIsReference"
+    },
+    {
+      "ids": [
+        "g07974"
+      ],
+      "info_formid": "01039F15",
+      "parent_topic": "BravilMelvsTorOut",
+      "quest": "BANNQDBravilBM",
+      "speaker_name": "Torro",
+      "speaker_editor_id": "BANBravilTorro",
+      "speaker_formid": "0101A41D",
+      "gender": "MALE",
+      "is_id_conditions": [
+        "0101A41D"
+      ],
+      "scene": null,
+      "speaker_status": "confirmed_required_GetIsID_or_GetIsReference"
+    },
+    {
+      "ids": [
+        "g07976"
+      ],
+      "info_formid": "01039F17",
+      "parent_topic": "BravilMelvsTorOut",
+      "quest": "BANNQDBravilBM",
+      "speaker_name": "Torro",
+      "speaker_editor_id": "BANBravilTorro",
+      "speaker_formid": "0101A41D",
+      "gender": "MALE",
+      "is_id_conditions": [
+        "0101A41D"
+      ],
+      "scene": null,
+      "speaker_status": "confirmed_required_GetIsID_or_GetIsReference"
+    },
+    {
+      "ids": [
+        "g07978"
+      ],
+      "info_formid": "01039F19",
+      "parent_topic": "BravilMelvsTorOut",
+      "quest": "BANNQDBravilBM",
+      "speaker_name": "Torro",
+      "speaker_editor_id": "BANBravilTorro",
+      "speaker_formid": "0101A41D",
+      "gender": "MALE",
+      "is_id_conditions": [
+        "0101A41D"
+      ],
+      "scene": null,
+      "speaker_status": "confirmed_required_GetIsID_or_GetIsReference"
+    },
+    {
+      "ids": [
+        "g14727"
+      ],
+      "info_formid": "0200723B",
+      "parent_topic": "GREETING",
+      "quest": "JolardEscortQuest",
+      "speaker_name": "Kalgar gra-Magul",
+      "speaker_editor_id": "JolardKalgar",
+      "speaker_formid": "0200722E",
+      "gender": "MALE",
+      "is_id_conditions": [
+        "0200722E"
+      ],
+      "scene": null,
+      "speaker_status": "confirmed_required_GetIsID_or_GetIsReference"
+    },
+    {
+      "ids": [
+        "g14733"
+      ],
+      "info_formid": "02007D2D",
+      "parent_topic": "GREETING",
+      "quest": "JolardEscortQuest",
+      "speaker_name": "Kalgar gra-Magul",
+      "speaker_editor_id": "JolardKalgar",
+      "speaker_formid": "0200722E",
+      "gender": "MALE",
+      "is_id_conditions": [
+        "0200722E"
+      ],
+      "scene": null,
+      "speaker_status": "confirmed_required_GetIsID_or_GetIsReference"
+    },
+    {
+      "ids": [
+        "g14742"
+      ],
+      "info_formid": "0200B0EE",
+      "parent_topic": "GREETING",
+      "quest": "JolardEscortQuest",
+      "speaker_name": "Kalgar gra-Magul",
+      "speaker_editor_id": "JolardKalgar",
+      "speaker_formid": "0200722E",
+      "gender": "MALE",
+      "is_id_conditions": [
+        "0200722E"
+      ],
+      "scene": null,
+      "speaker_status": "confirmed_required_GetIsID_or_GetIsReference"
+    },
+    {
+      "ids": [
+        "g14817"
+      ],
+      "info_formid": "0200723D",
+      "parent_topic": "JEKreahSent",
+      "quest": "JolardEscortQuest",
+      "speaker_name": "Kalgar gra-Magul",
+      "speaker_editor_id": "JolardKalgar",
+      "speaker_formid": "0200722E",
+      "gender": "MALE",
+      "is_id_conditions": [
+        "0200722E"
+      ],
+      "scene": null,
+      "speaker_status": "confirmed_required_GetIsID_or_GetIsReference"
+    }
+  ],
+  "notes": [
+    "Do not flip voice/gender or rewrite text until source-plugin NPC/INFO conditions and game audio are checked.",
+    "This evidence does not change any review status or remaining counts.",
+    "Quest and NPC identifiers come from the locally extracted Better Cities plugin files."
+  ]
+}
