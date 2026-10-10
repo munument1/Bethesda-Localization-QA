@@ -1,0 +1,139 @@
+{
+  "batch": "wave162_context_035",
+  "date": "2026-10-10",
+  "checkpoint": "wave161_context_034",
+  "scope": "Record-linked EditorID evidence for coffin, rowboat, ogre, pick and level; contextual INFO links for Baldor agreement and pirate island",
+  "selected": 7,
+  "approved": 3,
+  "corrected": 4,
+  "needs_context": 0,
+  "review_decisions": [
+    {
+      "id": "g02275",
+      "record_type": "MISC",
+      "field": "FULL",
+      "source_file": "active/needs_context-003.jsonl",
+      "english": "Pick",
+      "previous_korean": "괭이",
+      "reviewed_korean": "곡괭이",
+      "status": "corrected",
+      "reason": "원본 MISC FormID 010474C8의 EditorID가 BANPickIron으로 Pick은 철제 곡괭이 종류임이 확인된다. 기존 괭이는 hoe로 도구가 달라진다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl and reference_import/info_context.jsonl",
+        "formid": "010474C8",
+        "editor_id": "BANPickIron"
+      }
+    },
+    {
+      "id": "g04419",
+      "record_type": "CELL",
+      "field": "FULL",
+      "source_file": "active/needs_context-003.jsonl",
+      "english": "Government Offices, Level II",
+      "previous_korean": "정부 사무소 제2구역",
+      "reviewed_korean": "정부 사무소, 제2층",
+      "status": "corrected",
+      "reason": "원본 CELL FormID 0100B40A EditorID가 ICArboretumDistrictGovernmentOfficesLevel2이며 구역(zone)이 아닌 건물 내 Level 2를 지칭한다. 중립 층수 표기로 복원.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl and reference_import/info_context.jsonl",
+        "formid": "0100B40A",
+        "editor_id": "ICArboretumDistrictGovernmentOfficesLevel2"
+      }
+    },
+    {
+      "id": "g08321",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "Right",
+      "previous_korean": "오른쪽",
+      "reviewed_korean": "그렇군요.",
+      "status": "corrected",
+      "reason": "대화 선택지 Right의 연결 INFO 01062B53에서 발도어 경이 So I will see you tomorrow then이라고 답한다. 앞선 선택지 That will work?에 대한 답변이 The guards know better than to question a lord's word in this town이므로, Right는 오른쪽 방향이 아니라 설명에 동의하는 짧은 긍정이다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl and reference_import/info_context.jsonl",
+        "formid": "01062B52",
+        "linked_info": "01062B53",
+        "previous_info": "01062B51"
+      }
+    },
+    {
+      "id": "g07446",
+      "record_type": "DIAL",
+      "field": "FULL",
+      "source_file": "active/needs_context-004.jsonl",
+      "english": "The Gap? Where is that?",
+      "previous_korean": "틈새라고요? 거기가 어딘가요?",
+      "reviewed_korean": "더 갭이라고요? 어디에 있는 섬이죠?",
+      "status": "corrected",
+      "reason": "선장 색사의 앞선 INFO 010120CA에서 Which islands are dangerous?에 답하며 The Gap은 해적만 사는 섬이라고 특정한다. 고유 섬 이름 The Gap을 일반 '틈새'로 오역하지 않고 더 갭으로 보존하고 위치 질문을 자연화.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl and reference_import/info_context.jsonl",
+        "formid": "010120CB",
+        "preceding_info": "010120CA",
+        "linked_info": "010120CC"
+      }
+    },
+    {
+      "id": "g01778",
+      "record_type": "CONT",
+      "field": "FULL",
+      "source_file": "active/needs_context-003.jsonl",
+      "english": "Casket",
+      "previous_korean": "관",
+      "reviewed_korean": "관",
+      "status": "approved",
+      "reason": "Casket의 원본 CONT는 0103E598~0103E59F의 8개 관련 레코드에서 BANCryptCoffinContainer(관/묘실 수납) 계열 EditorID를 가진다. 작은 귀중품 상자가 아니라 장례용 관이므로 현재 '관'이 맞다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl and reference_import/info_context.jsonl",
+        "formid_range": "0103E598-0103E59F",
+        "edid_prefix": "BANCryptCoffinContainer"
+      }
+    },
+    {
+      "id": "g01874",
+      "record_type": "DOOR",
+      "field": "FULL",
+      "source_file": "active/needs_context-003.jsonl",
+      "english": "Row",
+      "previous_korean": "노 젓는 배",
+      "reviewed_korean": "노 젓는 배",
+      "status": "approved",
+      "reason": "Row의 원본 DOOR FormID 0100528A는 BANRowBoatDoor01이라는 EditorID를 사용한다. 문 형태의 출입 가능한 노 젓는 배를 뜻하므로 기존 '노 젓는 배'가 적절하다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl and reference_import/info_context.jsonl",
+        "formid": "0100528A",
+        "editor_id": "BANRowBoatDoor01"
+      }
+    },
+    {
+      "id": "g03717",
+      "record_type": "CREA",
+      "field": "FULL",
+      "source_file": "active/needs_context-003.jsonl",
+      "english": "Rat Trap",
+      "previous_korean": "쥐 덫",
+      "reviewed_korean": "쥐 덫",
+      "status": "approved",
+      "reason": "Rat Trap의 원본 CREA 010071C9은 BANAnvilCreatureOgre01이라는 EditorID를 가지는 오거의 별칭이다. 오거의 이름 '쥐 덫'은 원어 의미를 보존하며 실제 덫 소품이라고 오인해 번역을 바꾸지 않는다.",
+      "direct_english_korean_review": true,
+      "evidence": {
+        "source": "plugin_work_6.6.0a/extracted.jsonl and reference_import/info_context.jsonl",
+        "formid": "010071C9",
+        "editor_id": "BANAnvilCreatureOgre01"
+      }
+    }
+  ],
+  "structural_validation": {
+    "record_ids_unique": true,
+    "html_tokens_preserved": true,
+    "crlf_count_preserved": true,
+    "placeholders_preserved": true
+  }
+}
