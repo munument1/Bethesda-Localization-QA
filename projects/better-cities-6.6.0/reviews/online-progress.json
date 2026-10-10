@@ -72,9 +72,9 @@
     "target": 16182,
     "completed": 16182,
     "unprocessed": 0,
-    "approved": 12011,
-    "corrected": 3337,
-    "needs_context": 834
+    "approved": 12014,
+    "corrected": 3359,
+    "needs_context": 809
   },
   "context_decision_files": [
     "reviews/wave128_context_001.json",
@@ -82,7 +82,8 @@
     "reviews/wave130_context_003.json",
     "reviews/wave131_context_004.json",
     "reviews/wave132_context_005.json",
-    "reviews/wave133_context_006.json"
+    "reviews/wave133_context_006.json",
+    "reviews/wave134_context_007.json"
   ],
   "context_reviewed_ids": [
     "g00003",
@@ -219,9 +220,34 @@
     "g03742",
     "g00691",
     "g00692",
-    "g14629"
+    "g14629",
+    "g04696",
+    "g13868",
+    "g13840",
+    "g13626",
+    "g13762",
+    "g13763",
+    "g13658",
+    "g13659",
+    "g13660",
+    "g13673",
+    "g13674",
+    "g13676",
+    "g13677",
+    "g13679",
+    "g13680",
+    "g13841",
+    "g13842",
+    "g13824",
+    "g13455",
+    "g13425",
+    "g13869",
+    "g13744",
+    "g13350",
+    "g13874",
+    "g13789"
   ],
-  "last_context_batch": "wave133_context_006",
+  "last_context_batch": "wave134_context_007",
   "context_review_started": "2026-10-10",
-  "context_review_completed": 135
+  "context_review_completed": 160
 }
