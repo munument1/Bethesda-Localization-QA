@@ -1,0 +1,30 @@
+{
+  "batch": "wave166_context_039",
+  "date": "2026-10-10",
+  "checkpoint": "wave165_context_038",
+  "scope": "Verified original MISC mesh/icon and neighboring ebony tableware records for Ebony Glass",
+  "selected": 1,
+  "approved": 0,
+  "corrected": 1,
+  "needs_context": 0,
+  "review_decisions": [
+    {
+      "id": "g02071",
+      "record_type": "MISC",
+      "field": "FULL",
+      "source_file": "active/needs_context-003.jsonl",
+      "english": "Ebony Glass",
+      "previous_korean": "흑단 유리",
+      "reviewed_korean": "흑단 컵",
+      "status": "corrected",
+      "reason": "원본 Better Cities Resources.esm의 MISC FormID 01000A07/EditorID BANACEEbGlass를 직접 조회했다. MODL=BetterCitiesResources\\Clutter\\CoTR\\ACE\\EbGlass.nif, ICON=clutter\\CoTR\\Ebony\\iconEBglass.dds이며 인접한 MISC 010009E8/010009E9 Ebony Bowl, 01000A05 Ebony Carafe, 01000A06 Ebony Fork, 01000A08/01000A09 Ebony Goblet, 01000A0D Ebony Plate, 01000A10 Ebony Spoon 등의 흑단 식기 세트에 포함된다. 따라서 Glass는 유리 소재가 아니라 마시는 잔을 뜻하고 '흑단 유리'는 오역이다. 별도 Goblet와 구별되는 '흑단 컵'으로 수정한다.",
+      "direct_english_korean_review": true
+    }
+  ],
+  "structural_validation": {
+    "record_ids_unique": true,
+    "html_tokens_preserved": true,
+    "crlf_count_preserved": true,
+    "placeholders_preserved": true
+  }
+}
