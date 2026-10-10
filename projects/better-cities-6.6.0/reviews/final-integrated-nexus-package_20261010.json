@@ -1,0 +1,53 @@
+{
+  "project": "Better Cities Original 6.6.0 + Imperial City compatibility 6.6.0a",
+  "date": "2026-10-10",
+  "status": "NEXUS_READY_INTEGRATED_LOCAL_FILE_NOT_UPLOADED",
+  "description": "Single MO2/FOMod ZIP containing both original 6.6.0 Korean translations and 6.6.0a compatibility-update Korean translations, with update plugins in matching original 6.6.0 numbered option folders.",
+  "desktop_folder": "C:\\Users\\seung\\OneDrive\\Desktop\\Better Cities 6.6.0a 한국어 번역",
+  "desktop_archive": "C:\\Users\\seung\\OneDrive\\Desktop\\Better Cities 6.6.0a 한국어 번역.zip",
+  "sha256": "53181feb05a4947fcb5065aa3d8c2f1f499c47353c4448757c894e4b7ae1cd9c",
+  "archive_size_mib": 21.7,
+  "plugin_files": {
+    "original_v660_localized": 69,
+    "update_v660a_localized": 9,
+    "final_unique_plugins": 78,
+    "duplicate_output_paths": 0
+  },
+  "fomod": {
+    "original_install_folder_layout_retained": true,
+    "adapted_from_original_v660": true,
+    "referenced_ops": 79,
+    "broken_referenced_sources": 0,
+    "unreachable_translation_plugins": 0,
+    "werewolf_legends_selection_added": true,
+    "link_settings_optional": true,
+    "actual_MO2_installation_tested": false
+  },
+  "translation_review": {
+    "total": 16182,
+    "approved": 12386,
+    "corrected": 3796,
+    "pending": 0
+  },
+  "validation": {
+    "native_plugin_source_records_and_translated_fields_independently_verified": true,
+    "html_crlf_qa_checked": true,
+    "source_binary_plugins_unchanged": true,
+    "runtime_gameplay_untested": true
+  },
+  "workspace": {
+    "active": "D:\\Codex_Trans\\Better Cities 한국어 번역",
+    "active_files": [
+      "Better Cities 6.6.0a 한국어 번역.zip"
+    ],
+    "previous_split_package_archive": "D:\\Codex_Trans\\_검수_작업자료_보관\\Better Cities 6.6.0+6.6.0a QA_20261010\\_previous_split_package",
+    "nexus_build_script_archived": "D:\\Codex_Trans\\_검수_작업자료_보관\\Better Cities 6.6.0+6.6.0a QA_20261010\\finalize_nexus_integrated_20261010.py"
+  },
+  "caveats": [
+    "Do not treat mod as a standalone Better Cities install; original 6.6.0 and v6.6.0a IC compatibility update still required.",
+    "Select the same FOMod choices as installed original Better Cities.",
+    "User accepted unverified <spit> tag unchanged; source Torro/Melyssa conditions not altered.",
+    "Permission to redistribute edited original ESP/ESM files on Nexus should be checked against Better Cities author terms.",
+    "No Nexus upload or GitHub Release performed."
+  ]
+}
